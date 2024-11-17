@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cutive+Mono&family=Lexend+Zetta:wght@300&family=Noto+Sans:ital,wght@1,535&family=Passion+One:wght@400;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: armenian;
+  border: none;
+}
+.section-1 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.section-1-main {
+  position: absolute;
+  height: 80%;
+}
+.container-fluid {
+}
+.section-1-background {
+  width: 100%;
+  height: 126%;
+  filter: brightness(45%);
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+}
+
+.section-1-content {
+  margin: 100px;
+  width: 40%;
+  position: relative;
+  z-index: 1;
+}
+.wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: last baseline;
+}
+.btns {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  left: 95px;
+}
+.btn1 {
+  border: 1px solid #ffffff;
+  color: white;
+  border-radius: 3px;
+  transition: 0.5s;
+  padding: 15px 60px;
+}
+.btn2 {
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  padding: 15px 30px;
+  background: #ff5a30;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+  transition: 0.6s;
+}
+.btn1:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+.btn2:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+.construction {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 93.6px;
+  color: white;
+  font-size: 63px;
+}
+.createx {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 93px;
+  font-size: 63px;
+}
+.Cras {
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+}
+.phone {
+  color: #000000;
+  text-decoration: none;
+}
+.mail {
+  color: black;
+  text-decoration: none;
+}
+.svg-phone {
+  color: #ff5a30;
+}
+.svg-mail {
+  color: #ff5a30;
+}
+.phone-2 {
+  font-size: 15px;
+}
+.contact-item {
+  font-size: 15px;
+}
+.header-wrapper {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.5) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.5) 0px -2px 6px 0px inset;
+}
+header {
+  box-shadow: rgba(50, 50, 93, 0.5) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.5) 0px -2px 6px 0px inset;
+    
+}
+.a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.Contacts {
+  display: flex;
+  gap: 10px;
+}
+.navigation {
+  display: flex;
+}
+.section-2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto;
+}
+.video-div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.img-video {
+  width: 500px;
+  height: 200px;
+}
+.we {
+  color: #787a80;
+  margin: 0px;
+  padding: 10px;
+  font-family: Ubuntu;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 59.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.h1 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 59.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-top: 50px;
+  font-size: 70px;
+}
+.Our {
+  padding-bottom: 40px;
+  color: #787a80;
+  margin: 0px;
+
+  font-family: Ubuntu;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 59.8px;
+  text-align: center;
+}
+.h1our {
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 59.8px;
+  text-align: center;
+}
+.section-3 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.icon-boxes {
+  width: 900px;
+}
+.section-4 {
+display: grid;
+justify-content: center;
+align-items: center;
+grid-template-columns: 1fr;
+}
+.card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.img-card {
+width: 300px;
+height: 300px;
+}
+.section-5-background {
+   width: 100%;
+    filter: brightness(45%);
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+  }
+  .formw-rapper {
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   padding-top: 100px;
+  }
+  .form-container {
+    background-color: #fff;
+    padding: 13px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 266px;
+    height: 400px;
+}
+.q {
+    text-align: center;
+    margin-bottom: 20px;
+        font-family: Ubuntu;
+        font-size: 17px;
+        font-weight: 600;
+
+}
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 6px;
+    margin: 6px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+    font-size: 17px;
+    font-weight: 500;
+}
+button {
+    width: 100%;
+    padding: 6px;
+    background-color: #ff5a30;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer {
+    background-color: #1e212c;
+    height: 300px;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .sow {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+  }
+  .logo-sow {
+    padding: 40px 0px 0px 200px;
+  }
+@media (max-width: 768px) {
+    .construction {
+        font-size: 42px;
+    }
+    .createx {
+        font-size: 42px;
+    }
+    .cras {
+        font-size: 13px;
+    }
+    .btn1 {
+        padding: 5px 20px;
+        margin-bottom: 30px;
+    }
+    .btn2 {
+      padding: 5px 20px;
+      margin-bottom: 30px;
+    }
+
+  .divnav {
+    display: none;
+  }
+
+
+.cont-king {
+  display: none;
+}
+
+.navbar-brand {
+  padding-right: 230px;
+}
+.section-3 {
+display: none;
+}
+.btns {
+  left: 20px;
+}
+.card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img-card {
+  width: 250px;
+height: 250px;
+}
+.section-1-background {
+  width: 100%;
+  height: 100%;
+  filter: brightness(45%);
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+}
+.section-1 {
+  position: relative;
+  height: 100vh;
+  
+}
+.img-video {
+  width: 100%;
+}
+}
